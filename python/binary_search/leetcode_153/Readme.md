@@ -36,6 +36,8 @@ n == nums.length
 All the integers of nums are unique.
 nums is sorted and rotated between 1 and n times.
 
+***
+
 ### result
 
 #### < solution_findMin1 >
