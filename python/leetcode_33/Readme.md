@@ -6,7 +6,7 @@
 05/07/2022 16:59	Accepted	38 ms	14.4 MB	python3
 
 - 이진탐색, 재귀를 사용
-- low, high에 target 값이 오는 케이스도 체크, 체크를 하`지 않는 solution_3과 비교해서 비교적 속도의 우위
+- low, high에 target 값이 오는 케이스도 체크, 체크를 하지 않는 solution_3과 비교해서 비교적 속도의 우위
 
 
 < solution_2 >
