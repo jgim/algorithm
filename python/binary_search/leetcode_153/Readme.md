@@ -67,9 +67,9 @@ nums is sorted and rotated between 1 and n times.
 
 #### < solution_findMin3 >
 ```
-- 05/08/2022 03:33	Accepted	45 ms	14.1 MB	python3
-- 05/08/2022 03:33	Accepted	56 ms	14.1 MB	python3
-- 05/08/2022 03:32	Accepted	91 ms	14.3 MB	python3
+05/08/2022 03:33	Accepted	45 ms	14.1 MB	python3
+05/08/2022 03:33	Accepted	56 ms	14.1 MB	python3
+05/08/2022 03:32	Accepted	91 ms	14.3 MB	python3
 ```
 - 정렬된 케이스도 이진탐색, 숫자가 클 때는 유의미하지만 제약조건처럼 범위가 작을 때는 큰 차이가 없음
 
