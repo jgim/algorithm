@@ -42,11 +42,11 @@ nums is sorted and rotated between 1 and n times.
 ### result
 
 #### < solution_findMin1 >
-'''
+```
 05/08/2022 02:34	Accepted	37 ms	14.2 MB	python3
 05/08/2022 02:33	Accepted	45 ms	14.2 MB	python3
 05/08/2022 02:33	Accepted	52 ms	14.1 MB	python3
-'''
+```
 
 - 반복문을 사용한 이진탐색
 - 처음부터 정렬된 경우, 또는 값이 하나만 존재하는 경우에는 반복문 이전에 처리를 해줬음
@@ -56,29 +56,29 @@ nums is sorted and rotated between 1 and n times.
 - rotate가 일어난 경우 최소값은 정렬되지 않은 쪽에 존재하기 때문에 그 영역을 반복문으로 돌림
 
 #### < solution_findMin2 >
-'''
+```
 05/08/2022 03:48	Accepted	43 ms	14.2 MB	python3
 05/08/2022 03:47	Accepted	55 ms	14.1 MB	python3
 05/08/2022 03:47	Accepted	78 ms	14.3 MB	python3
-'''
+```
 - low < high 반복문 조건으로 하나가 오는 경우 체크 가능
 - mid앞 값이 최대값이 올 경우 생길 수 있는 문제는 반복문을 돌릴 때 mid 값을 포함시키는 것으로 해결
 - 조건을 생략한 대신 전체적인 성능이 기존 코드에 비해서 떨어지는 경향이 있음
 
 #### < solution_findMin3 >
-'''
+```
 - 05/08/2022 03:33	Accepted	45 ms	14.1 MB	python3
 - 05/08/2022 03:33	Accepted	56 ms	14.1 MB	python3
 - 05/08/2022 03:32	Accepted	91 ms	14.3 MB	python3
-'''
+```
 - 정렬된 케이스도 이진탐색, 숫자가 클 때는 유의미하지만 제약조건처럼 범위가 작을 때는 큰 차이가 없음
 
 #### < solution_findMin4 >
-'''
+```
 05/08/2022 04:11	Accepted	38 ms	14.5 MB	python3
 05/08/2022 04:11	Accepted	70 ms	14.4 MB	python3
 05/08/2022 04:11	Accepted	50 ms	14.3 MB	python3
-'''
+```
 - findMin3의 코드를 재귀로 풀이
 - 반복문보다 메모리 사용량이 늘어남
 - 시간적으로는 기존 반복문보다 짧아짐, 대체로 findMin1과 비슷한 걸로 봐서는 반복문 조건 체크 할 때 if보다 시간 소모가 더 클 수도 있다는 생각이 듬 -> 확인 필요
