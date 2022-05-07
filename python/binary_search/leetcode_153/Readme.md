@@ -1,3 +1,5 @@
+***
+
 ### Subject
 
 Suppose an array of length n sorted in ascending order is rotated between 1 and n times. For example, the array nums = [0,1,2,4,5,6,7] might become:
@@ -91,3 +93,5 @@ nums is sorted and rotated between 1 and n times.
 - 반복문보다 메모리 사용량이 늘어남
 - 시간적으로는 기존 반복문보다 짧아짐, 대체로 findMin1과 비슷한 걸로 봐서는 반복문 조건 체크 할 때 if보다 시간 소모가 더 클 수도 있다는 생각이 듬 -> 확인 필요
 - 메모리 문제를 고려하지 않는다면, 재귀와 반복문의 차이는 없는 듯함
+
+***
