@@ -63,7 +63,7 @@ nums is an ascending array that is possibly rotated.
 - 재귀를 사용, 케이스를 단순화 시켜서 코드는 간결
 - 공간과 시간을 가장 잡아먹는편
 
-< total >
+#### < total >
 
 - 이진탐색을 사용했기 때문에 시간 복잡도는 전부 O(n)
 
