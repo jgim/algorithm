@@ -12,6 +12,8 @@ Open brackets must be closed in the correct order.
 
 #### Example:
 
+
+Example 1:
 ```
 Input: s = "()"
 Output: true
@@ -41,7 +43,6 @@ Output: True
 ```
 1 <= s.length <= 104
 s consists of parentheses only '()[]{}'
-Example 1:
 ```
 
 ***
