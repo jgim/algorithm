@@ -103,6 +103,6 @@ print("-")
 05/18/2022 19:52	Accepted	51 ms	15.4 MB	python3
 05/18/2022 19:51	Accepted	54 ms	15.4 MB	python3
 
-- linkelist를 직접 구현하여 테스트 케이스를 만들어 봄
-- 스왑으로 list의 순서를 변경 후, tail(마지막 노드의 주소) 값을 리턴
+linkelist를 직접 구현하여 테스트 케이스를 만들어 봄
+스왑으로 list의 순서를 변경 후, tail(마지막 노드의 주소) 값을 리턴
 '''
