@@ -115,8 +115,7 @@ class Solution_3:
 			if nums[0] > target or nums[lens] < target:
 				return -1
 		return binary_search(0, lens)
-
-
+		
 solution_1 = Solution_1()
 solution_2 = Solution_2()
 solution_3 = Solution_3()
